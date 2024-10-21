@@ -22,9 +22,9 @@ A simple Python application to convert currencies using the ExchangeRate-API.
     ```sh
     pip install -r requirements.txt
     ```
-4. Create a `.env` file in the root directory and add your ExchangeRate-API key:
-    ```env
-    API_KEY=your_api_key_here
+4. The `.env` file with the ExchangeRate-API key is already included in the repository. However, if you want to use your own API key, you can modify the `.env` file with your own key:
+    ```sh
+    echo "API_KEY=your_api_key_here" > .env
     ```
 
 ## Usage

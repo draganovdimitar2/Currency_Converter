@@ -24,6 +24,3 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
-
-# Environment variables
-.env
